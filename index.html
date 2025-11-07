@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,22 +24,45 @@
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
 </head>
 <body>
-    <!--HEADER-->
-    <header class="container">
-        <a href="">
-            <img src="image/logo_desktop.svg" alt="" width="69" height="56">
-        </a>
-            <nav>
-                <ul>
-                    <li>О нас</li>
-                    <li>Услуги и цены</li>
-                    <li>Мастера</li>
-                    <li>Контакты</li>
-                </ul>
-            </nav>
-                <a href="tel:+380441111111">+38 044 111 11 11</a>
-                <button type="button">онлайн-запись</button>
+    <!-- HEADER -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img src="image/logo_desktop.svg" alt="" width="69" height="56"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#">About us<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services and prices</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Masters</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="tel:+380441111111">+38 044 111 11 11</a>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button">онлайн-запись</button>
+                        </li>
+                    </ul>
+                </div>
+            </nav> 
+        <section>
+            <div class="container">
+                <p>A hair salon for men in Kyiv</p>
+                <h1>BarberShop</h1>
+                <p>We are experts in fashionable men's haircuts. We work quickly, carefully, and tastefully.</p>
+            </div>
+        </section>    
     </header>
+    
 <main>
     <!--HERO-->
     <section class="container">
@@ -49,19 +72,14 @@
                 <li><a href="">Youtube</a></li>
             </ul>
         </div>
-        <div>
-            <p lang="en">A hair salon for men in Kyiv</p>
-            <h1 lang="en">BarberShop</h1>
-            <p>Мы эксперты в модных мужских стрижках. Работаем быстро, осторожно и со вкусом.</p>
-        </div>
     </section>
     <!--About us-->
     <section class="container">
         <div>
-            <img src="image/about_us_desktop.jpg" alt="барбер бреет бороду" width="270" height="445">
-            <img src="image/about_us2_desktop.jpg" alt="барбер бреет виски" width="270" height="445">
-                <h2>О НАС</h2>
-                    <h3>Лучший Барбершоп твоего города</h3>
+            <img src="image/about_us_desktop.jpg" alt="" width="270" height="445">
+            <img src="image/about_us2_desktop.jpg" alt="" width="270" height="445">
+                <h2>About us</h2>
+                    <h3>The best barbershop in your city</h3>
                         <p>Если ты хочешь добавить в свой образ больше уверенности – тебе точно к нам.</p>
                             <p>Мы команда, которая никогда не останавливается на достигнутом
                             и жаждет перемен. И когда ты попадешь в руки нашего мастера,
@@ -209,5 +227,10 @@
             </ul>
         </div>
     </footer>
+<!-- Boostrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    
+    <!-- Smooth Scroll JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.1.3/smooth-scroll.min.js" integrity="sha512-HYG9E+RmbXS7oy529Nk8byKFw5jqM3R1zzvoV2JnltsIGkK/AhZSzciYCNxDMOXEbYO9w6MJ6SpuYgm5PJPpeQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 </html>
