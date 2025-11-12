@@ -1,0 +1,32 @@
+/* HEADER */
+
+.header-bg {
+        background-image: url('/assets/img/header_bg_1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh; 
+    position: relative;
+
+}
+
+.btn-style {
+        width: 1101.7421875;
+    height: 354;
+    top: 40px;
+    left: 116px;
+    border-radius: 25px;
+    border-width: 1px;
+    angle: 0 deg;
+    opacity: 1;
+    border: 2px solid #FF6C00;
+}
+
+.btn-style :hover, 
+.btn-style :focus {
+    background: #FF6C00;;
+}
+
+.text-secondary {
+    color: #9DA4BD99;
+}
