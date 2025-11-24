@@ -21,6 +21,23 @@
     position: relative;
 }
 
+.bg-card {
+ background: linear-gradient(
+    186deg,
+    rgba(23, 26, 36, 0.6) 0%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
+}
+
+.bg-card-2 {
+background: linear-gradient(
+  180deg,
+  rgba(9, 11, 19, 0.8) 0%,
+  rgba(255, 255, 255, 0.0) 100%
+);
+
+}
+
 .bg-secondary {
     background-color: #F7F7F7;
 }
