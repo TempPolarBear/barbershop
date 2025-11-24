@@ -19,7 +19,10 @@
     background-repeat: no-repeat;
     min-height: 100vh; 
     position: relative;
+}
 
+.bg-secondary {
+    background-color: #F7F7F7;
 }
 
 .text-secondary {
