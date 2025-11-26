@@ -39,9 +39,14 @@ background: linear-gradient(
 }
 
 .bg-secondary {
-    background-color: #F7F7F7;
+    background-color: #F7F7F7 !important;
 }
 
 .text-secondary {
     color: #9DA4BD99;
+}
+
+.master-btn:focus,
+.master-btn:hover {
+  color: #FF6C00 !important;
 }
