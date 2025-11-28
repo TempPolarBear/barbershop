@@ -25,8 +25,8 @@
 </head>
 <body>
     <!-- HEADER -->
-    <header class="header-bg text-white pt-5 pb-5 mb-5 mt-5">
-        <div class="container">
+    <header class="header-bg text-white">
+        <div class="container pt-5">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <a class="navbar-brand" href="#"><img src="assets/img/icon/logo.svg" alt="" width="69" height="56"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,16 +35,16 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav me-auto">
                         <li class="nav-item pe-3">
-                            <a class="nav-link text-white" href="#">About us</a>
+                            <a class="nav-link text-white" href="#about_us">About us</a>
                         </li>
                         <li class="nav-item pe-3">
-                            <a class="nav-link text-white" href="#">Services and prices</a>
+                            <a class="nav-link text-white" href="#services_prices">Services and prices</a>
                         </li>
                         <li class="nav-item pe-3">
-                            <a class="nav-link text-white" href="#">Masters</a>
+                            <a class="nav-link text-white" href="#masters">Masters</a>
                         </li>
                         <li class="nav-item pe-3">
-                            <a class="nav-link text-white" href="#">Contacts</a>
+                            <a class="nav-link text-white" href="#contacts">Contacts</a>
                         </li> 
                     </ul>
                     <ul class="navbar-nav ms-auto">    
@@ -58,10 +58,19 @@
                 </div>
             </nav> 
             <div class="">
-                <p class="text-white-50">A hair salon for men in Kyiv</p>
-                <h1 class="display-1 fw-normal">BarberShop</h1>
-                <p class="text-white-50">We are experts in fashionable men's haircuts. <br> We work quickly, carefully, and tastefully.</p>  
-            </div>
+                <div class="row">
+                        <div class="col-1 mt-3">
+                           <div class="border borter-bottom-1 border-black-50"></div>
+                        </div>
+                        <div class="col-auto">
+                            <p class="text-white-50">A hair salon for men in Kyiv</p>
+                        </div>
+                </div>
+                <div class="col">
+                    <h1 class="display-1 fw-normal">BarberShop</h1>
+                    <p class="text-white-50">We are experts in fashionable men's haircuts. <br> We work quickly, carefully, and tastefully.</p>  
+                </div>
+            </div> 
         </div> 
     </header>
     <main>
@@ -75,7 +84,7 @@
             </div>
         </section>
         <!--About us-->
-        <section class="pt-5 pb-5 mt-5 mb-5">
+        <section class="pt-5 pb-5 mt-5 mb-5" id="about_us">
             <div class="container">
                 <div class="row">
                     <div class="col-auto">
@@ -105,7 +114,7 @@
             </div>
         </section>
         <!--Services and prices-->
-        <section class="pt-5 pb-5 mt-5 mb-5 prices-bg">
+        <section class="pt-5 pb-5 mt-5 mb-5 prices-bg" id="services_prices">
             <div class="container pt-3">
                 <div class="row mt-5">
                     <div class="col-1 mt-3">
@@ -281,7 +290,7 @@
             </div>
         </section>
         <!--MASTERS-->
-        <section class=" bg-light-subtle pt-5 pb-5 mt-5 mb-5">
+        <section class=" bg-light-subtle pt-5 pb-5 mt-5 mb-5" id="masters">
             <div class="container">
                 <div class="col ps-5">
                     <div class="row">
@@ -346,7 +355,7 @@
             </div>
         </section>
         <!--PORTFOLIO-->
-        <section class="pt-5 pb-5 mt-5 mb-5">
+        <section class="pt-5 pb-5 mt-5 mb-5" id="portfolio">
             <div class="container">
                 <div class="col ps-5">
                     <div class="row">
@@ -384,7 +393,7 @@
         </section>
     </main>
     <!--FOOTER-->
-    <footer class="pt-5 pb-5 mt-5 mb-5">
+    <footer class="pt-5 pb-5 mt-5 mb-5" id="contacts">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 bg-primary pt-5">
